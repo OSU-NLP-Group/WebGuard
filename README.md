@@ -116,7 +116,7 @@ This code and dataset are released solely for research purposes, with the goal o
 ## 📄 License
 
 - **Code**: MIT License
-- **Dataset**: Creative Commons Attribution 4.0 International License
+- **Dataset**: Creative Commons Attribution-NonCommercial 4.0 International
 
 See [LICENSE](LICENSE) for full details.
 
