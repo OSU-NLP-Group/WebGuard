@@ -15,20 +15,6 @@ Web agents are becoming increasingly capable of performing complex tasks on webs
 - **Annotation Tools**: Purpose-built tools for efficient data annotation
 - **Model for Proactive Safety Monitoring**: Detects potentially harmful actions before execution
 
-## 🛠️ Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/OSU-NLP-Group/WebGuard.git
-   cd WebGuard
-   ```
-
-2. **Install dependencies of LLaMA-Factory**
-   ```bash
-   git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
-   cd LLaMA-Factory
-   pip install -e ".[torch,metrics]" --no-build-isolation
-   ```
 
 
 ## 📊 Dataset
@@ -47,6 +33,44 @@ Screenshot: Google Drive link to screenshot view
 Annotation: Review classification (SAFE/UNSAFE/LOW/HIGH)
 website: Website name/category
 ```
+
+
+## 🔧 Annotation Tool
+
+We provide a specialized annotation tool built upon the WebOlympus Chrome Extension for efficient web safety annotation.
+
+### Getting Started
+
+For complete installation instructions, usage guidelines, and annotation examples, please refer to:
+
+📖 **[Annotation Tool Guide](annotation_tool/annotation_tool_introduction.md)**
+
+This comprehensive guide covers:
+- Chrome extension installation steps
+- Annotation interface walkthrough  
+- Safety labeling guidelines
+- Example annotations and best practices
+- Troubleshooting common issues
+
+The tool source code is available at `annotation_tool/webguard_annotation_tool.zip`.
+
+
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/OSU-NLP-Group/WebGuard.git
+   cd WebGuard
+   ```
+
+2. **Install dependencies of LLaMA-Factory**
+   ```bash
+   git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
+   cd LLaMA-Factory
+   pip install -e ".[torch,metrics]" --no-build-isolation
+   ```
+
 
 ## 🏋️ Model Training
 
@@ -84,28 +108,6 @@ llamafactory-cli train configs/3b_monitor_qwen2_5vl_full_sft_eval.yaml
 ```bash
 llamafactory-cli train configs/7b_monitor_qwen2_5vl_full_sft_eval.yaml
 ```
-
-
-## 🔧 Annotation Tool
-
-We provide a specialized annotation tool built upon the WebOlympus Chrome Extension for efficient web safety annotation.
-
-### Getting Started
-
-For complete installation instructions, usage guidelines, and annotation examples, please refer to:
-
-📖 **[Annotation Tool Guide](annotation_tool/annotation_tool_introduction.md)**
-
-This comprehensive guide covers:
-- Chrome extension installation steps
-- Annotation interface walkthrough  
-- Safety labeling guidelines
-- Example annotations and best practices
-- Troubleshooting common issues
-
-The tool source code is available at `annotation_tool/webguard_annotation_tool.zip`.
-
-
 
 ## ⚠️ Disclaimer
 
