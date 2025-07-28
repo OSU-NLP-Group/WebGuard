@@ -3,7 +3,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/OSU-NLP-Group/WebGuard?style=social&label=WebGuard)](https://github.com/OSU-NLP-Group/WebGuard)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.14293-b31b1b.svg)](https://arxiv.org/abs/2507.14293)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Dataset License: CC BY 4.0](https://img.shields.io/badge/Dataset%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Dataset License: CC BY-NC 4.0](https://img.shields.io/badge/Dataset%20License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 <a href="https://huggingface.co/datasets/osunlp/WebGuard"><img src="https://img.shields.io/badge/WebGuard -Dataset-blue.svg" alt="WebGuard Benchmark"></a>
 
 **WebGuard** is a generalizable guardrail system for web agents that helps detect potentially harmful actions before they are executed. This repository contains the complete codebase, dataset, and annotation tools for the WebGuard research project.
